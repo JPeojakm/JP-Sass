@@ -1,0 +1,42 @@
+
+.content {
+
+  > * {
+    padding-left: 30px;
+  }
+
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color:$secondary-color;
+
+  p {
+    
+    width: 55%;
+    min-width: 550px;
+  }
+
+  img, .content video {
+
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: square; 
+    padding-left: 30px; 
+    margin: 0; 
+  }
+  
+  li {
+    margin: 0; 
+    padding: 0; 
+  }
+}
+

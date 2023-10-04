@@ -1,0 +1,45 @@
+$primary-color:#1BD760;
+$secondary-color:purple;
+
+@import 'reset';
+
+html, body {
+  font-family: Arial;
+  font-size: 65%;
+  color: $primary-color;
+}
+
+p, ul, ol, dl {
+  font-size: 2rem;
+  line-height: 2.1rem;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 4.75rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 16px 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin: 14px 0 8px 0;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 14px 0 8px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+}
